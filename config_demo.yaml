@@ -1,0 +1,21 @@
+settings:
+  # 账户之间的暂停时间（秒）
+  pause_between_accounts: [10, 20]
+
+yescaptcha:
+  # yes打码平台：https://yescaptcha.com/i/HiIywr
+  clientKey: ""
+
+invite:
+  # 邀请码。机器人从此列表中随机选择
+  # 示例：invite_codes: ["123456", "123457", "123458"]
+  invite_codes: []
+  miner_invite_codes: []
+
+# 执行周期 只对播种、挖矿操作有效
+cycle:
+  # 每间隔多长时间执行一次
+  cycle_interval: [1200, 3600]
+  # 执行次数
+  cycle_count: 999
+

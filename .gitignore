@@ -1,0 +1,27 @@
+# 用户指定的过滤规则
+config.yaml
+build/
+dist/
+
+
+# 环境变量
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# Python 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# PyInstaller
+#  通常这些文件是由 Python 脚本从模板生成的
+#  在运行 PyInstaller 之前。它们也可以由用户生成。
+*.manifest
+*.spec
